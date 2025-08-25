@@ -1,0 +1,15 @@
+D:\c#\SeoulHotel\bin\Debug\SeoulHotel.exe.config
+D:\c#\SeoulHotel\bin\Debug\SeoulHotel.exe
+D:\c#\SeoulHotel\bin\Debug\SeoulHotel.pdb
+D:\c#\SeoulHotel\bin\Debug\Guna.UI2.dll
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.csproj.AssemblyReference.cache
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.Forms.Management_Form.resources
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.Forms.Register.resources
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.Properties.Resources.resources
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.csproj.GenerateResource.cache
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.csproj.CoreCompileInputs.cache
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.csproj.Up2Date
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.exe
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.pdb
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.Forms.Manage_Hotel.resources
+D:\c#\SeoulHotel\obj\Debug\SeoulHotel.Login.resources
