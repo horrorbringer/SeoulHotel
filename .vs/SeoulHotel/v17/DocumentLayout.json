@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\c#\\SeoulHotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\management_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\forms\\management_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\management_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -46,8 +46,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -57,8 +61,7 @@
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs [Design]",
               "RelativeToolTip": "Forms\\Manage_Hotel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T14:24:26.387Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-02T14:24:26.387Z"
             },
             {
               "$type": "Document",
@@ -69,8 +72,7 @@
               "ToolTip": "D:\\c#\\SeoulHotel\\Login.cs [Design]",
               "RelativeToolTip": "Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T08:55:01.086Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-19T08:55:01.086Z"
             },
             {
               "$type": "Document",
@@ -80,7 +82,7 @@
               "RelativeDocumentMoniker": "Forms\\Management_Form.cs",
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs",
               "RelativeToolTip": "Forms\\Management_Form.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAADgv68AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAmwI4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T19:13:14.385Z",
               "EditorCaption": ""
@@ -94,8 +96,7 @@
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs [Design]",
               "RelativeToolTip": "Forms\\Management_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T19:02:53.377Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-19T19:02:53.377Z"
             },
             {
               "$type": "Document",
