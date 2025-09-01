@@ -41,6 +41,7 @@
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelItem = new System.Windows.Forms.Label();
             this.TabControlManageHotel = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPageListingDetails = new System.Windows.Forms.TabPage();
             this.ndNumberBathroom = new Guna.UI2.WinForms.Guna2NumericUpDown();
@@ -58,6 +59,7 @@
             this.TextBoxTitle = new Guna.UI2.WinForms.Guna2TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.ComboBoxAreaID = new Guna.UI2.WinForms.Guna2ComboBox();
             this.ComboBoxItemType = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -67,6 +69,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPageAmenities = new System.Windows.Forms.TabPage();
             this.label16 = new System.Windows.Forms.Label();
@@ -78,6 +81,7 @@
             this.btnCloseFinish = new Guna.UI2.WinForms.Guna2Button();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.PanelMGHotel.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
             this.TabControlManageHotel.SuspendLayout();
             this.tabPageListingDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ndNumberBathroom)).BeginInit();
@@ -144,11 +148,22 @@
             // 
             this.guna2Panel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Panel2.BorderThickness = 1;
+            this.guna2Panel2.Controls.Add(this.labelItem);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 660);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(1100, 45);
             this.guna2Panel2.TabIndex = 2;
+            // 
+            // labelItem
+            // 
+            this.labelItem.AutoSize = true;
+            this.labelItem.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelItem.Location = new System.Drawing.Point(8, 11);
+            this.labelItem.Name = "labelItem";
+            this.labelItem.Size = new System.Drawing.Size(0, 23);
+            this.labelItem.TabIndex = 5;
             // 
             // TabControlManageHotel
             // 
@@ -202,6 +217,7 @@
             this.tabPageListingDetails.Controls.Add(this.TextBoxTitle);
             this.tabPageListingDetails.Controls.Add(this.label7);
             this.tabPageListingDetails.Controls.Add(this.label12);
+            this.tabPageListingDetails.Controls.Add(this.ComboBoxAreaID);
             this.tabPageListingDetails.Controls.Add(this.ComboBoxItemType);
             this.tabPageListingDetails.Controls.Add(this.label14);
             this.tabPageListingDetails.Controls.Add(this.label11);
@@ -211,6 +227,7 @@
             this.tabPageListingDetails.Controls.Add(this.label13);
             this.tabPageListingDetails.Controls.Add(this.label9);
             this.tabPageListingDetails.Controls.Add(this.label5);
+            this.tabPageListingDetails.Controls.Add(this.label1);
             this.tabPageListingDetails.Controls.Add(this.label3);
             this.tabPageListingDetails.Location = new System.Drawing.Point(4, 44);
             this.tabPageListingDetails.Name = "tabPageListingDetails";
@@ -230,6 +247,7 @@
             this.ndNumberBathroom.Name = "ndNumberBathroom";
             this.ndNumberBathroom.Size = new System.Drawing.Size(90, 35);
             this.ndNumberBathroom.TabIndex = 9;
+            this.ndNumberBathroom.Tag = "Number of Bathrooms";
             // 
             // ndMaximum
             // 
@@ -238,9 +256,15 @@
             this.ndMaximum.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ndMaximum.Location = new System.Drawing.Point(623, 402);
             this.ndMaximum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ndMaximum.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.ndMaximum.Name = "ndMaximum";
             this.ndMaximum.Size = new System.Drawing.Size(81, 35);
             this.ndMaximum.TabIndex = 9;
+            this.ndMaximum.Tag = "Maximum";
             // 
             // ndNumerBedroom
             // 
@@ -252,6 +276,7 @@
             this.ndNumerBedroom.Name = "ndNumerBedroom";
             this.ndNumerBedroom.Size = new System.Drawing.Size(81, 35);
             this.ndNumerBedroom.TabIndex = 9;
+            this.ndNumerBedroom.Tag = "Number of Bedrooms";
             // 
             // ndMinimux
             // 
@@ -260,9 +285,15 @@
             this.ndMinimux.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ndMinimux.Location = new System.Drawing.Point(386, 402);
             this.ndMinimux.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ndMinimux.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.ndMinimux.Name = "ndMinimux";
             this.ndMinimux.Size = new System.Drawing.Size(88, 35);
             this.ndMinimux.TabIndex = 9;
+            this.ndMinimux.Tag = "Minimum";
             // 
             // ndNumberOfBed
             // 
@@ -274,6 +305,7 @@
             this.ndNumberOfBed.Name = "ndNumberOfBed";
             this.ndNumberOfBed.Size = new System.Drawing.Size(88, 35);
             this.ndNumberOfBed.TabIndex = 9;
+            this.ndNumberOfBed.Tag = "Number of Beds";
             // 
             // ndCapacity
             // 
@@ -285,6 +317,7 @@
             this.ndCapacity.Name = "ndCapacity";
             this.ndCapacity.Size = new System.Drawing.Size(80, 35);
             this.ndCapacity.TabIndex = 9;
+            this.ndCapacity.Tag = "Capacity";
             // 
             // label8
             // 
@@ -315,6 +348,7 @@
             this.TextBoxHostRule.SelectedText = "";
             this.TextBoxHostRule.Size = new System.Drawing.Size(809, 45);
             this.TextBoxHostRule.TabIndex = 8;
+            this.TextBoxHostRule.Tag = "Host Rules";
             // 
             // TextBoxDes
             // 
@@ -334,6 +368,7 @@
             this.TextBoxDes.SelectedText = "";
             this.TextBoxDes.Size = new System.Drawing.Size(809, 45);
             this.TextBoxDes.TabIndex = 8;
+            this.TextBoxDes.Tag = "Description";
             // 
             // TextBoxExactAdd
             // 
@@ -353,6 +388,7 @@
             this.TextBoxExactAdd.SelectedText = "";
             this.TextBoxExactAdd.Size = new System.Drawing.Size(809, 45);
             this.TextBoxExactAdd.TabIndex = 8;
+            this.TextBoxExactAdd.Tag = "Exact Address";
             // 
             // TextBoxApproAdd
             // 
@@ -372,6 +408,7 @@
             this.TextBoxApproAdd.SelectedText = "";
             this.TextBoxApproAdd.Size = new System.Drawing.Size(809, 45);
             this.TextBoxApproAdd.TabIndex = 8;
+            this.TextBoxApproAdd.Tag = "Approzimate Address";
             // 
             // label15
             // 
@@ -395,13 +432,14 @@
             this.TextBoxTitle.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TextBoxTitle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TextBoxTitle.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TextBoxTitle.Location = new System.Drawing.Point(667, 16);
+            this.TextBoxTitle.Location = new System.Drawing.Point(765, 16);
             this.TextBoxTitle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxTitle.Name = "TextBoxTitle";
             this.TextBoxTitle.PlaceholderText = "";
             this.TextBoxTitle.SelectedText = "";
-            this.TextBoxTitle.Size = new System.Drawing.Size(371, 37);
+            this.TextBoxTitle.Size = new System.Drawing.Size(273, 37);
             this.TextBoxTitle.TabIndex = 8;
+            this.TextBoxTitle.Tag = "Title";
             // 
             // label7
             // 
@@ -425,6 +463,25 @@
             this.label12.TabIndex = 6;
             this.label12.Text = "Host Rules:";
             // 
+            // ComboBoxAreaID
+            // 
+            this.ComboBoxAreaID.BackColor = System.Drawing.Color.Transparent;
+            this.ComboBoxAreaID.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ComboBoxAreaID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBoxAreaID.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ComboBoxAreaID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ComboBoxAreaID.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.ComboBoxAreaID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.ComboBoxAreaID.ItemHeight = 30;
+            this.ComboBoxAreaID.Items.AddRange(new object[] {
+            "test"});
+            this.ComboBoxAreaID.Location = new System.Drawing.Point(439, 17);
+            this.ComboBoxAreaID.Name = "ComboBoxAreaID";
+            this.ComboBoxAreaID.Size = new System.Drawing.Size(252, 36);
+            this.ComboBoxAreaID.TabIndex = 7;
+            this.ComboBoxAreaID.Tag = "Area";
+            this.ComboBoxAreaID.SelectedIndexChanged += new System.EventHandler(this.ComboBoxAreaID_SelectedIndexChanged);
+            // 
             // ComboBoxItemType
             // 
             this.ComboBoxItemType.BackColor = System.Drawing.Color.Transparent;
@@ -439,8 +496,10 @@
             "test"});
             this.ComboBoxItemType.Location = new System.Drawing.Point(92, 16);
             this.ComboBoxItemType.Name = "ComboBoxItemType";
-            this.ComboBoxItemType.Size = new System.Drawing.Size(346, 36);
+            this.ComboBoxItemType.Size = new System.Drawing.Size(252, 36);
             this.ComboBoxItemType.TabIndex = 7;
+            this.ComboBoxItemType.Tag = "Type";
+            this.ComboBoxItemType.SelectedIndexChanged += new System.EventHandler(this.ComboBoxItemType_SelectedIndexChanged);
             // 
             // label14
             // 
@@ -491,7 +550,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label4.Location = new System.Drawing.Point(603, 26);
+            this.label4.Location = new System.Drawing.Point(717, 29);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 23);
             this.label4.TabIndex = 6;
@@ -529,6 +588,17 @@
             this.label5.Size = new System.Drawing.Size(79, 23);
             this.label5.TabIndex = 6;
             this.label5.Text = "Capacity:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label1.Location = new System.Drawing.Point(388, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 23);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Area";
             // 
             // label3
             // 
@@ -622,6 +692,8 @@
             this.DataGridViewAmenities.ThemeStyle.RowsStyle.Height = 24;
             this.DataGridViewAmenities.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.DataGridViewAmenities.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.DataGridViewAmenities.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewAmenities_CellValueChanged);
+            this.DataGridViewAmenities.CurrentCellDirtyStateChanged += new System.EventHandler(this.DataGridViewAmenities_CurrentCellDirtyStateChanged);
             // 
             // tabPageDTA
             // 
@@ -637,12 +709,12 @@
             // 
             // DataGridViewDTA
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
             this.DataGridViewDTA.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
@@ -652,12 +724,12 @@
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DataGridViewDTA.DefaultCellStyle = dataGridViewCellStyle6;
-            this.DataGridViewDTA.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridViewDTA.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
             this.DataGridViewDTA.Location = new System.Drawing.Point(38, 69);
             this.DataGridViewDTA.Name = "DataGridViewDTA";
             this.DataGridViewDTA.ReadOnly = true;
@@ -666,27 +738,28 @@
             this.DataGridViewDTA.RowTemplate.Height = 24;
             this.DataGridViewDTA.Size = new System.Drawing.Size(988, 352);
             this.DataGridViewDTA.TabIndex = 7;
-            this.DataGridViewDTA.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridViewDTA.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Light;
+            this.DataGridViewDTA.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
             this.DataGridViewDTA.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.DataGridViewDTA.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.DataGridViewDTA.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.DataGridViewDTA.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.DataGridViewDTA.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.DataGridViewDTA.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataGridViewDTA.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DataGridViewDTA.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
+            this.DataGridViewDTA.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
             this.DataGridViewDTA.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.DataGridViewDTA.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DataGridViewDTA.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridViewDTA.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.Black;
             this.DataGridViewDTA.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.DataGridViewDTA.ThemeStyle.HeaderStyle.Height = 4;
             this.DataGridViewDTA.ThemeStyle.ReadOnly = true;
             this.DataGridViewDTA.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.DataGridViewDTA.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DataGridViewDTA.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DataGridViewDTA.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridViewDTA.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.DataGridViewDTA.ThemeStyle.RowsStyle.Height = 24;
-            this.DataGridViewDTA.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataGridViewDTA.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridViewDTA.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.DataGridViewDTA.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
             // label17
             // 
@@ -758,6 +831,8 @@
             this.Load += new System.EventHandler(this.Manage_Hotel_Load);
             this.PanelMGHotel.ResumeLayout(false);
             this.PanelMGHotel.PerformLayout();
+            this.guna2Panel2.ResumeLayout(false);
+            this.guna2Panel2.PerformLayout();
             this.TabControlManageHotel.ResumeLayout(false);
             this.tabPageListingDetails.ResumeLayout(false);
             this.tabPageListingDetails.PerformLayout();
@@ -820,5 +895,8 @@
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2DataGridView DataGridViewDTA;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
+        private Guna.UI2.WinForms.Guna2ComboBox ComboBoxAreaID;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelItem;
     }
 }

@@ -3,36 +3,55 @@
   "WorkspaceRootPath": "D:\\c#\\SeoulHotel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\management_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\management_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\coonnection\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:coonnection\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\management_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\management_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SeoulHotel||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\coonnection\\comboboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:coonnection\\comboboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,60 +65,156 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Manage_Hotel.cs",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
+              "RelativeDocumentMoniker": "Forms\\Manage_Hotel.cs",
+              "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
+              "RelativeToolTip": "Forms\\Manage_Hotel.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAqwFACAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:50:31.236Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Management_Form.cs",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs",
+              "RelativeDocumentMoniker": "Forms\\Management_Form.cs",
+              "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs",
+              "RelativeToolTip": "Forms\\Management_Form.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwGoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:13:14.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Manage_Hotel.cs [Design]",
               "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
               "RelativeDocumentMoniker": "Forms\\Manage_Hotel.cs",
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs [Design]",
               "RelativeToolTip": "Forms\\Manage_Hotel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T14:24:26.387Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-02T14:24:26.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\c#\\SeoulHotel\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T08:55:01.086Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Management_Form.cs",
-              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs",
-              "RelativeDocumentMoniker": "Forms\\Management_Form.cs",
-              "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs",
-              "RelativeToolTip": "Forms\\Management_Form.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAADgv68AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T19:13:14.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Management_Form.cs [Design]",
               "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs",
               "RelativeDocumentMoniker": "Forms\\Management_Form.cs",
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Management_Form.cs [Design]",
               "RelativeToolTip": "Forms\\Management_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T19:02:53.377Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-19T19:02:53.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "DB.cs",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Coonnection\\DB.cs",
+              "RelativeDocumentMoniker": "Coonnection\\DB.cs",
+              "ToolTip": "D:\\c#\\SeoulHotel\\Coonnection\\DB.cs",
+              "RelativeToolTip": "Coonnection\\DB.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwI8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T04:55:05.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\c#\\SeoulHotel\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-26T13:55:19.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "D:\\c#\\SeoulHotel\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-26T13:55:30.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\c#\\SeoulHotel\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAWwAIBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T12:29:48.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeoulHotel",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\SeoulHotel.csproj",
+              "RelativeDocumentMoniker": "SeoulHotel.csproj",
+              "ToolTip": "D:\\c#\\SeoulHotel\\SeoulHotel.csproj",
+              "RelativeToolTip": "SeoulHotel.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-26T05:42:07.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\c#\\SeoulHotel\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:55:01.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Forms\\Register.cs",
+              "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Register.cs",
+              "RelativeToolTip": "Forms\\Register.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwJMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:15:17.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComboBoxItem.cs",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Coonnection\\ComboBoxItem.cs",
+              "RelativeDocumentMoniker": "Coonnection\\ComboBoxItem.cs",
+              "ToolTip": "D:\\c#\\SeoulHotel\\Coonnection\\ComboBoxItem.cs",
+              "RelativeToolTip": "Coonnection\\ComboBoxItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:43:06.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Register.cs [Design]",
               "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Register.cs",
               "RelativeDocumentMoniker": "Forms\\Register.cs",
@@ -110,43 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Manage_Hotel.cs",
-              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
-              "RelativeDocumentMoniker": "Forms\\Manage_Hotel.cs",
-              "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
-              "RelativeToolTip": "Forms\\Manage_Hotel.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAApwLAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T16:50:31.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ComboBoxItem.cs",
-              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Coonnection\\ComboBoxItem.cs",
-              "RelativeDocumentMoniker": "Coonnection\\ComboBoxItem.cs",
-              "ToolTip": "D:\\c#\\SeoulHotel\\Coonnection\\ComboBoxItem.cs",
-              "RelativeToolTip": "Coonnection\\ComboBoxItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T15:43:06.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Register.cs",
-              "RelativeDocumentMoniker": "Forms\\Register.cs",
-              "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Register.cs",
-              "RelativeToolTip": "Forms\\Register.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAApwLEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:15:17.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\c#\\SeoulHotel\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
