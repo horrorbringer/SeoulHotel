@@ -33,6 +33,7 @@ namespace SeoulHotel
        
         private string _usn, _pwd,_user,_emp, _usn_type,_full_name;
         private byte _UserTypeID;
+        private int _UserID;
 
         private const byte EMPLOYEE = 1;
         private const byte USER = 2;
@@ -234,7 +235,7 @@ namespace SeoulHotel
 
             DB db = new DB();
             SqlConnection conn = db.GetConnection();
-            String query = "SELECT u.UserTypeID, u.Username, u.Password , u.FullName, ut.Name  FROM Users AS u INNER JOIN UserTypes AS ut ON u.UserTypeID = ut.ID WHERE Username = @usn AND Password = @pwd";
+            String query = "SELECT u.ID, u.UserTypeID, u.Username, u.Password , u.FullName, ut.Name  FROM Users AS u INNER JOIN UserTypes AS ut ON u.UserTypeID = ut.ID WHERE Username = @usn AND Password = @pwd";
             try
             {
                 conn.Open();
@@ -246,6 +247,7 @@ namespace SeoulHotel
                 {
                     while (user.Read())
                     {
+                        _UserID = Int32.Parse(user["ID"].ToString());
                         _UserTypeID = byte.Parse(user["UserTypeID"].ToString());
                         _usn = user["Username"].ToString();
                         _pwd = user["Password"].ToString();
@@ -258,7 +260,7 @@ namespace SeoulHotel
                     else
                         Properties.Settings.Default.RememberMe = false;
 
-
+                    Properties.Settings.Default.UserId = _UserID;
                     Properties.Settings.Default.Username = _user;
                     Properties.Settings.Default.Password = _pwd;
                     Properties.Settings.Default.UserType = _usn_type;

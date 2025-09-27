@@ -119,17 +119,19 @@ namespace SeoulHotel.Forms
                     {
                         if (CheckBoxRgAgree.Checked)
                         {
-                            Properties.Settings.Default.Username = usn;
-                            Properties.Settings.Default.Password = pwd;
-                            Properties.Settings.Default.UserType = "user";
-                            Properties.Settings.Default.FullName = fln;
-                            Properties.Settings.Default.Save();
-
                             DB db = new DB();
                             SqlConnection conn = db.GetConnection();
                             Guid newUserId = Guid.NewGuid();
-                            String query = @"INSERT INTO Users (GUID,UserTypeID,Username,Password,FullName,Gender,BirthDate,FamilyCount)
-                                            VALUES (@guid,@user_type,@usn,@pwd,@fln,@g,@dob,@flc)";
+                            //String query = @"INSERT INTO Users (GUID,UserTypeID,Username,Password,FullName,Gender,BirthDate,FamilyCount)
+                            //                VALUES (@guid,@user_type,@usn,@pwd,@fln,@g,@dob,@flc)";
+                            string query = @"
+                                            INSERT INTO Users (
+                                                GUID, UserTypeID, Username, Password, FullName, Gender, BirthDate, FamilyCount
+                                            )
+                                            OUTPUT INSERTED.ID
+                                            VALUES (
+                                                @guid, @user_type, @usn, @pwd, @fln, @g, @dob, @flc
+                                            );";
                             try
                             {
                                 SqlCommand cmd = new SqlCommand(query,conn);
@@ -144,10 +146,19 @@ namespace SeoulHotel.Forms
                                 cmd.Parameters.AddWithValue("@flc",nf);
 
                                 conn.Open();
-                                if (cmd.ExecuteNonQuery() > 0)
-                                    MessageBox.Show("Account created success fully!");
-                                else
+                                int newId = Convert.ToInt32(cmd.ExecuteScalar() ?? 0);
+                                if (newId == 0)
+                                {
                                     MessageBox.Show("Couldn't created!");
+                                    return;
+                                }
+                                Properties.Settings.Default.UserId = newId;
+                                Properties.Settings.Default.Username = usn;
+                                Properties.Settings.Default.Password = pwd;
+                                Properties.Settings.Default.UserType = "user";
+                                Properties.Settings.Default.FullName = fln;
+                                Properties.Settings.Default.Save();
+                                MessageBox.Show("Account created success fully!");
                             }
                             catch (Exception ex)
                             {

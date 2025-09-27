@@ -81,7 +81,6 @@ namespace SeoulHotel.Forms
         {
             DB db = new DB();
             SqlConnection conn = db.GetConnection();
-            String query = "";
             SqlDataAdapter adapter = null;
             bool isFound = false;
 
@@ -89,23 +88,15 @@ namespace SeoulHotel.Forms
             {
                 if (search != null && search.Length > 0)
                 {
-                    query = @"SELECT i.Title, i.Capacity,a.Name as [Area],it.Name  as [Type]
-                            FROM (( Areas AS a INNER JOIN Items as i ON a.ID = i.AreaID) INNER JOIN ItemTypes as it ON it.ID = i.ItemTypeID)
-                            WHERE i.Title LIKE @title OR a.Name LIKE @area OR it.Name LIKE @type
-                            ORDER BY 1 ASC";
-                    adapter = new SqlDataAdapter(query, conn);
+                    adapter = new SqlDataAdapter(db.selectDataSearchForTraveler(), conn);
                     adapter.SelectCommand.Parameters.AddWithValue("@title", $"%{search}%");
                     adapter.SelectCommand.Parameters.AddWithValue("@area", $"%{search}%");
                     adapter.SelectCommand.Parameters.AddWithValue("@type", $"%{search}%");
                 }
                 else
                 { 
-                    query = @"SELECT i.Title, i.Capacity,a.Name as [Area],it.Name  as [Type]
-                            FROM (( Areas AS a INNER JOIN Items as i ON a.ID = i.AreaID) INNER JOIN ItemTypes as it ON it.ID = i.ItemTypeID)
-                            ORDER BY 1 ASC";
-                     adapter = new SqlDataAdapter(query, conn);
+                     adapter = new SqlDataAdapter(db.selectDataTraveler(), conn);
                 }
-
 
                 DataTable dt = new DataTable();
 
@@ -120,12 +111,8 @@ namespace SeoulHotel.Forms
                 else if (item_count >= 2)
                     labelStatusUser.Text = $"{dt.Rows.Count.ToString()} items found";
 
-
-
-
                 DataGridViewTravler.DataSource = dt;
 
-                
                 if(adapter == null)
                     isFound = true;
 
@@ -136,7 +123,6 @@ namespace SeoulHotel.Forms
                 DataGridViewTravler.Columns["Capacity"].HeaderText = "Capacity";
                 DataGridViewTravler.Columns["Area"].HeaderText = "Area";
                 DataGridViewTravler.Columns["Type"].HeaderText = "Type";
-
             }
             catch (Exception ex)
             {
@@ -152,10 +138,7 @@ namespace SeoulHotel.Forms
             bool isFound = false;
             try
             {
-                String query = @"SELECT i.ID, i.Title, i.Capacity,a.Name as [Area],it.Name  as [Type]
-                        FROM (( Areas AS a INNER JOIN Items as i ON a.ID = i.AreaID) INNER JOIN ItemTypes as it ON it.ID = i.ItemTypeID)
-                        ORDER BY 1 ASC";
-                SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
+                SqlDataAdapter adapter = new SqlDataAdapter(db.selectDataManagementForm(), conn);
 
                 DataTable dt = new DataTable();
 
@@ -196,8 +179,6 @@ namespace SeoulHotel.Forms
 
                     DataGridViewHotelMG.Columns.Add(btnEdit);
                     DataGridViewHotelMG.Columns["btnEdit"].Width = 100;
-
-
                 }
 
             }
@@ -230,7 +211,6 @@ namespace SeoulHotel.Forms
             mt.FormClosed += (s, args) => this.Close();
             mt.Show();
         }
-
 
         private void DataGridViewHotelMG_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
