@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\c#\\SeoulHotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\coonnection\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\coonnection\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:coonnection\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Coonnection\\DB.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAiwJMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T22:48:35.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T22:48:35.603Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Forms\\Manage_Hotel.cs",
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
               "RelativeToolTip": "Forms\\Manage_Hotel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOQAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAtwG4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T22:59:17.653Z",
               "EditorCaption": ""
@@ -63,8 +62,7 @@
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs [Design]",
               "RelativeToolTip": "Forms\\Manage_Hotel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T14:24:26.387Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-02T14:24:26.387Z"
             }
           ]
         }
