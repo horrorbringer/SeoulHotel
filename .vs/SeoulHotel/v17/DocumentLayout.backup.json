@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\c#\\SeoulHotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|d:\\c#\\seoulhotel\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|D:\\c#\\SeoulHotel\\forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A6CB0CF-1767-48C3-AA88-DA1020A38812}|SeoulHotel.csproj|solutionrelative:forms\\manage_hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\c#\\SeoulHotel\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\c#\\SeoulHotel\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-13T11:06:56.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DB.cs",
               "DocumentMoniker": "D:\\c#\\SeoulHotel\\Coonnection\\DB.cs",
               "RelativeDocumentMoniker": "Coonnection\\DB.cs",
@@ -42,20 +59,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Manage_Hotel.cs",
               "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
               "RelativeDocumentMoniker": "Forms\\Manage_Hotel.cs",
               "ToolTip": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
               "RelativeToolTip": "Forms\\Manage_Hotel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAtwG4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwHoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T22:59:17.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T22:59:17.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Manage_Hotel.cs [Design]",
               "DocumentMoniker": "D:\\c#\\SeoulHotel\\Forms\\Manage_Hotel.cs",
               "RelativeDocumentMoniker": "Forms\\Manage_Hotel.cs",

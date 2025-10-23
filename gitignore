@@ -1,0 +1,105 @@
+# ---------- Visual Studio / .NET ----------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ipch
+*.aps
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.idb
+*.tlog
+*.lastcodeanalysissucceeded
+*.lastbuildstate
+*.cache
+*.log
+*.svclog
+*.vsp
+*.vspscc
+*.vssscc
+*.opendb
+*.VC.db
+[Bb]uild/
+[Ll]og/
+[Rr]elease/
+[Dd]ebug/
+x64/
+x86/
+[Aa]rtifacts/
+TestResults/
+*.VisualState.xml
+
+# Rider / VS Code / other IDEs
+.idea/
+*.iml
+.vscode/
+
+# .NET build output
+bin/
+obj/
+out/
+publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+# If using packages/ (legacy, non-SDK)
+packages/
+
+# Resharper / analyzers
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# MSBuild
+*.tmp_proj
+*.tmp
+*.vshost.*
+
+# Local db files
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+# ClickOnce
+publish/
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Images & media that should use LFS (optional)
+# Uncomment if you use Git LFS
+# *.psd
+# *.ai
+# *.mp4
+# *.zip
+
+# App configuration (keep prod; ignore local/dev secrets)
+appsettings.*.Development.json
+*.Secret*.json
+
+# WinForms resources (tracked)
+# Keep .resx files tracked. If you generate localized .resources, ignore the compiled binaries:
+*.resources
+
+# Node (if you have tooling in repo)
+node_modules/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Crash/hang dumps
+*.dmp
